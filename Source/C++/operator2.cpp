@@ -33,7 +33,7 @@ public:
 };
 
 
-void testOperator()
+void testOperator2()
 {
 	std::string strResult = read();
 	long result = read();

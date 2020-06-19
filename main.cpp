@@ -44,7 +44,8 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	testIterator();
 	testSmartPoint(); // Ptr
 	testBase();
-	testOperator();
+	testOperator1();
+	testOperator2();
 	readRegister();
 	TestCppInherit();
 
@@ -217,6 +218,8 @@ int sub()
 		else return(0);
 	}
 	else sub();
+
+	return -1; //
 }
 int mul()
 {

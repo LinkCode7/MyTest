@@ -275,9 +275,6 @@
     <ClCompile Include="Source\C++\iterator.cpp">
       <Filter>C++</Filter>
     </ClCompile>
-    <ClCompile Include="Source\C++\operator.cpp">
-      <Filter>C++</Filter>
-    </ClCompile>
     <ClCompile Include="Source\C++\petal.cpp">
       <Filter>C++</Filter>
     </ClCompile>
@@ -410,9 +407,6 @@
     <ClCompile Include="Source\C++\Base\Inherit.cpp">
       <Filter>C++\Base</Filter>
     </ClCompile>
-    <ClCompile Include="Source\C++\Base\operator.cpp">
-      <Filter>C++\Base</Filter>
-    </ClCompile>
     <ClCompile Include="Source\String\NoCaseWString.cpp">
       <Filter>String</Filter>
     </ClCompile>
@@ -439,6 +433,12 @@
     </ClCompile>
     <ClCompile Include="Source\Boost\graph\shortest_path.cpp">
       <Filter>Boost\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\operator1.cpp">
+      <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\operator2.cpp">
+      <Filter>C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

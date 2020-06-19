@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\Sindy\ExternalLib\boost_1_61_0\include;F:\Sindy\ExternalLib\GDAL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\Sindy\ExternalLib\boost_1_61_0\lib;F:\Sindy\ExternalLib\GDAL\include\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ExternalLib\boost_1_61_0\include;..\ExternalLib\GDAL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ExternalLib\boost_1_61_0\lib;..\ExternalLib\GDAL\include\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -97,7 +97,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>F:\Sindy\c_str\MyTest\Debug\gdal_i.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\Debug\gdal_i.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -225,7 +225,7 @@
     <ClCompile Include="Source\C++\base.cpp" />
     <ClCompile Include="Source\C++\Base\delete.cpp" />
     <ClCompile Include="Source\C++\Base\Inherit.cpp" />
-    <ClCompile Include="Source\C++\Base\operator.cpp" />
+    <ClCompile Include="Source\C++\Base\operator1.cpp" />
     <ClCompile Include="Source\C++\Base\sizeof.cpp" />
     <ClCompile Include="Source\C++\C++11\Cpp11.cpp" />
     <ClCompile Include="Source\C++\C++11\std_bind.cpp" />
@@ -233,7 +233,7 @@
     <ClCompile Include="Source\C++\C++11\Widget.cpp" />
     <ClCompile Include="Source\C++\iterator.cpp" />
     <ClCompile Include="Source\C++\Mechanism\vtable.cpp" />
-    <ClCompile Include="Source\C++\operator.cpp" />
+    <ClCompile Include="Source\C++\operator2.cpp" />
     <ClCompile Include="Source\C++\petal.cpp" />
     <ClCompile Include="Source\C++\Ptr.cpp" />
     <ClCompile Include="Source\C++\ReadRegistry.cpp" />

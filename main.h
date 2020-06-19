@@ -5,7 +5,8 @@ void testSmartPoint();
 
 void testBase();
 
-void testOperator();
+void testOperator1();
+void testOperator2();
 
 void readRegister();
 
