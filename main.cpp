@@ -11,6 +11,7 @@ using namespace std;
 
 
 void keke2();
+void keke3();
 
 // 调用每个分测试程序的分入口
 int main(int argc, char*argv[]) // 命令行参数用于测试program_options
@@ -253,4 +254,53 @@ int div()
 	{
 		return div();
 	}
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Student
+{
+	char name[100];
+	char class_name[100];
+	char grade[100];
+};
+
+void keke3()
+{
+	// 写入成绩
+	// wb,a
+	char file_path[] = "C:\\Users\\siyuj\\Desktop\\data.txt";
+	FILE *fp = fopen(file_path, "a");
+	if (fp == NULL)
+	{
+		exit(1);
+	}
+
+	Student student;
+	printf("请依次输入学生的姓名、班级、分数：\n");
+	scanf("%s%s%s", &student.name, &student.class_name, &student.grade);
+
+	//fputs("张三 3班 80分", fp);
+
+	// 以追加的方式写入一个人的班级、成绩
+	fprintf(fp, "%s\t%s\t%s\n", student.name, student.class_name, student.grade);
+	fclose(fp);
+
+
+
+
+	// 读出成绩
+	//rewind(fp);
+	fp = fopen(file_path, "r");
+
+	Student s2;
+	while (fscanf(fp, "%s\t%s\t%s\n", s2.name, s2.class_name, s2.grade) != -1)
+	{
+		// 这里得到的就是一行数据了
+	}
+
+	fclose(fp);
 }
