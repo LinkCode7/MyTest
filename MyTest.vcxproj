@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA5E89DE-BFE3-4A72-A81E-702DEFDF8A8F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>F:\Sindy\ExternalLib\boost_1_61_0\include;F:\Sindy\ExternalLib\GDAL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\Sindy\ExternalLib\boost_1_61_0\lib;F:\Sindy\ExternalLib\GDAL\include\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>F:\Sindy\c_str\MyTest\Debug\gdal_i.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Source\Algorithm\LintCode\serialize.h" />
+    <ClInclude Include="Source\Algorithm\LintCode\weekly.h" />
+    <ClInclude Include="Source\Boost\boost_date_time.h" />
+    <ClInclude Include="Source\Boost\boost_program_options.h" />
+    <ClInclude Include="Source\Boost\boost_property_tree.h" />
+    <ClInclude Include="Source\Boost\boost_random.h" />
+    <ClInclude Include="Source\Boost\boost_split.h" />
+    <ClInclude Include="Source\Boost\boost_variant.h" />
+    <ClInclude Include="Source\Boost\filesystem\boost_filesystem.h" />
+    <ClInclude Include="Source\Boost\filesystem\filesystem_util.h" />
+    <ClInclude Include="Source\Boost\filesystem\std_filesystem.h" />
+    <ClInclude Include="Source\Boost\graph\shortest_path.h" />
+    <ClInclude Include="Source\Boost\Regex\regex_match.h" />
+    <ClInclude Include="Source\Boost\Regex\regex_replace.h" />
+    <ClInclude Include="Source\Boost\Regex\std_regex.h" />
+    <ClInclude Include="Source\Boost\Vietnam.h" />
+    <ClInclude Include="Source\C++\base.h" />
+    <ClInclude Include="Source\C++\Base\Inherit.h" />
+    <ClInclude Include="Source\C++\Base\sizeof.h" />
+    <ClInclude Include="Source\C++\C++11\Cpp11.h" />
+    <ClInclude Include="Source\C++\C++11\std_bind.h" />
+    <ClInclude Include="Source\C++\C++11\std_move.h" />
+    <ClInclude Include="Source\C++\Mechanism\vtable.h" />
+    <ClInclude Include="Source\C++\Ptr.h" />
+    <ClInclude Include="Source\C++\ReadRegistry.h" />
+    <ClInclude Include="Source\C++\STL\std_advance.h" />
+    <ClInclude Include="Source\C++\STL\LFUCache.h" />
+    <ClInclude Include="Source\C++\STL\List.h" />
+    <ClInclude Include="Source\C++\STL\List_Iterator.h" />
+    <ClInclude Include="Source\C++\STL\template_add.h" />
+    <ClInclude Include="Source\C++\VirtualFunction.h" />
+    <ClInclude Include="Source\c\Fibonacci.h" />
+    <ClInclude Include="Source\C\suspicious.h" />
+    <ClInclude Include="Source\DesignPattern\SinglePattern.h" />
+    <ClInclude Include="Source\ESRI\ArcObject.h" />
+    <ClInclude Include="Source\ESRI\GDAL.h" />
+    <ClInclude Include="Source\Others\BcJs2018.h" />
+    <ClInclude Include="Source\Others\GetConfig.h" />
+    <ClInclude Include="Source\Others\SmartPoint.h" />
+    <ClInclude Include="Source\Pm\IntersectJudge.h" />
+    <ClInclude Include="Source\Pm\MemoryUtil.h" />
+    <ClInclude Include="Source\Pm\PmFunction.h" />
+    <ClInclude Include="Source\Pm\TestSQLite.h" />
+    <ClInclude Include="Source\String\NoCaseWString.h" />
+    <ClInclude Include="Source\String\str_util.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Source\Algorithm\algorithm.cpp" />
+    <ClCompile Include="Source\Algorithm\LintCode\serialize.cpp" />
+    <ClCompile Include="Source\Algorithm\LintCode\weekly.cpp" />
+    <ClCompile Include="Source\Boost\boost.cpp" />
+    <ClCompile Include="Source\Boost\boost_date_time.cpp" />
+    <ClCompile Include="Source\Boost\boost_program_options.cpp" />
+    <ClCompile Include="Source\Boost\boost_property_tree.cpp" />
+    <ClCompile Include="Source\Boost\boost_random.cpp" />
+    <ClCompile Include="Source\Boost\boost_split.cpp" />
+    <ClCompile Include="Source\Boost\boost_string.cpp" />
+    <ClCompile Include="Source\Boost\boost_tuple.cpp" />
+    <ClCompile Include="Source\Boost\boost_variant.cpp" />
+    <ClCompile Include="Source\Boost\filesystem\boost_filesystem.cpp" />
+    <ClCompile Include="Source\Boost\filesystem\filesystem_util.cpp" />
+    <ClCompile Include="Source\Boost\filesystem\std_filesystem.cpp" />
+    <ClCompile Include="Source\Boost\graph\shortest_path.cpp" />
+    <ClCompile Include="Source\Boost\Regex\regex_match.cpp" />
+    <ClCompile Include="Source\Boost\Regex\regex_replace.cpp" />
+    <ClCompile Include="Source\Boost\Regex\std_regex.cpp" />
+    <ClCompile Include="Source\Boost\Vietnam.cpp" />
+    <ClCompile Include="Source\C++\base.cpp" />
+    <ClCompile Include="Source\C++\Base\delete.cpp" />
+    <ClCompile Include="Source\C++\Base\Inherit.cpp" />
+    <ClCompile Include="Source\C++\Base\operator.cpp" />
+    <ClCompile Include="Source\C++\Base\sizeof.cpp" />
+    <ClCompile Include="Source\C++\C++11\Cpp11.cpp" />
+    <ClCompile Include="Source\C++\C++11\std_bind.cpp" />
+    <ClCompile Include="Source\C++\C++11\std_move.cpp" />
+    <ClCompile Include="Source\C++\C++11\Widget.cpp" />
+    <ClCompile Include="Source\C++\iterator.cpp" />
+    <ClCompile Include="Source\C++\Mechanism\vtable.cpp" />
+    <ClCompile Include="Source\C++\operator.cpp" />
+    <ClCompile Include="Source\C++\petal.cpp" />
+    <ClCompile Include="Source\C++\Ptr.cpp" />
+    <ClCompile Include="Source\C++\ReadRegistry.cpp" />
+    <ClCompile Include="Source\C++\STL\std_advance.cpp" />
+    <ClCompile Include="Source\C++\STL\KeyValue.cpp" />
+    <ClCompile Include="Source\C++\STL\LFUCache.cpp" />
+    <ClCompile Include="Source\C++\STL\List.cpp" />
+    <ClCompile Include="Source\C++\STL\List_Iterator.cpp" />
+    <ClCompile Include="Source\C++\STL\TemplateBaseClass.cpp" />
+    <ClCompile Include="Source\C++\Thread.cpp" />
+    <ClCompile Include="Source\C++\trace.cpp" />
+    <ClCompile Include="Source\C++\VirtualFunction.cpp" />
+    <ClCompile Include="Source\c\Fibonacci.cpp" />
+    <ClCompile Include="Source\c\Interview.cpp" />
+    <ClCompile Include="Source\c\math.cpp" />
+    <ClCompile Include="Source\c\OneWayLinkedList.cpp" />
+    <ClCompile Include="Source\c\Point.cpp" />
+    <ClCompile Include="Source\c\sort.cpp" />
+    <ClCompile Include="Source\C\suspicious.cpp" />
+    <ClCompile Include="Source\DesignPattern\DemeterRule.cpp" />
+    <ClCompile Include="Source\DesignPattern\SinglePattern.cpp" />
+    <ClCompile Include="Source\DesignPattern\TemplateMethod.cpp" />
+    <ClCompile Include="Source\DesignPattern\Virtual.cpp" />
+    <ClCompile Include="Source\ESRI\ArcObject.cpp" />
+    <ClCompile Include="Source\ESRI\GDAL.cpp" />
+    <ClCompile Include="Source\Graphical\IVSFlexGrid.cpp" />
+    <ClCompile Include="Source\Others\BcJs2018.cpp" />
+    <ClCompile Include="Source\Others\GetConfig.cpp" />
+    <ClCompile Include="Source\Others\getDirectoryNames.cpp" />
+    <ClCompile Include="Source\Others\shapeFile.cpp" />
+    <ClCompile Include="Source\Others\SmartPoint.cpp" />
+    <ClCompile Include="Source\Pm\IntersectJudge.cpp" />
+    <ClCompile Include="Source\Pm\MemoryUtil.cpp" />
+    <ClCompile Include="Source\Pm\PmFunction.cpp" />
+    <ClCompile Include="Source\Pm\TestSQLite.cpp" />
+    <ClCompile Include="Source\String\c.cpp" />
+    <ClCompile Include="Source\String\CStringExample.cpp" />
+    <ClCompile Include="Source\String\CStringMember.cpp" />
+    <ClCompile Include="Source\String\NoCaseWString.cpp" />
+    <ClCompile Include="Source\String\string.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

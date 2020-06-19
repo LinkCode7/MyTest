@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="C++">
+      <UniqueIdentifier>{242c51ac-1d69-4eb0-8c18-5a4ba28be1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{6c8a0933-de64-4712-8309-510d096b6c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{26a68a79-8c3a-4e0d-9335-248fa50f531f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESRI">
+      <UniqueIdentifier>{2d44097d-a534-43ff-bc52-dd087b4036c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{68e10b7b-ecb1-4152-8b77-afd3229ad4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical">
+      <UniqueIdentifier>{7c9ca65a-c939-45e7-9bc5-2216338d598d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\C++11">
+      <UniqueIdentifier>{bdc35a96-4d3b-4948-b74a-5452d714ef42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern">
+      <UniqueIdentifier>{f6ccd6d4-5f8e-4389-b186-4aa111ea7020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pm">
+      <UniqueIdentifier>{6bd6fe7d-2951-4d4d-8e99-d3f884f5e9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\STL">
+      <UniqueIdentifier>{9d98edce-dd3e-4dec-b158-5ca7a44f8ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\LintCode">
+      <UniqueIdentifier>{9e9d931e-2bb5-462d-a890-df519ff693fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\Regex">
+      <UniqueIdentifier>{11ecdbf2-15f6-4c60-b0fb-2dfa8334cd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\filesystem">
+      <UniqueIdentifier>{79475832-d65f-4d9f-9074-ceb6c2edef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Base">
+      <UniqueIdentifier>{521f6955-ca02-4fa6-be54-eb00a89858f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C">
+      <UniqueIdentifier>{c587d7cf-0c02-401a-992c-446d08edca0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Mechanism">
+      <UniqueIdentifier>{a37dfe6e-a75d-47ac-b92e-8ce6159882df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pm\Others">
+      <UniqueIdentifier>{985804a1-1a02-4694-864d-9599e6b4b5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\graph">
+      <UniqueIdentifier>{25434d07-f38a-42e3-b13c-ae9aabdc8e76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Algorithm\LintCode\serialize.h">
+      <Filter>Algorithm\LintCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Algorithm\LintCode\weekly.h">
+      <Filter>Algorithm\LintCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_split.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\Vietnam.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\c\Fibonacci.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\base.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\Ptr.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\ReadRegistry.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\VirtualFunction.h">
+      <Filter>C++</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\List_Iterator.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\template_add.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DesignPattern\SinglePattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ESRI\ArcObject.h">
+      <Filter>ESRI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ESRI\GDAL.h">
+      <Filter>ESRI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\GetConfig.h">
+      <Filter>Pm\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\SmartPoint.h">
+      <Filter>Pm\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pm\PmFunction.h">
+      <Filter>Pm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\BcJs2018.h">
+      <Filter>Pm\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\List.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\LFUCache.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_variant.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_property_tree.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\Regex\regex_match.h">
+      <Filter>Boost\Regex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\Regex\regex_replace.h">
+      <Filter>Boost\Regex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\Regex\std_regex.h">
+      <Filter>Boost\Regex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_random.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\filesystem\boost_filesystem.h">
+      <Filter>Boost\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\filesystem\filesystem_util.h">
+      <Filter>Boost\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\std_advance.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\filesystem\std_filesystem.h">
+      <Filter>Boost\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_date_time.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\boost_program_options.h">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\Base\sizeof.h">
+      <Filter>C++\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\C++11\Cpp11.h">
+      <Filter>C++\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\C++11\std_bind.h">
+      <Filter>C++\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\Base\Inherit.h">
+      <Filter>C++\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\String\str_util.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\String\NoCaseWString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\Mechanism\vtable.h">
+      <Filter>C++\Mechanism</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pm\MemoryUtil.h">
+      <Filter>Pm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pm\TestSQLite.h">
+      <Filter>Pm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pm\IntersectJudge.h">
+      <Filter>Pm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\C++11\std_move.h">
+      <Filter>C++\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C\suspicious.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\graph\shortest_path.h">
+      <Filter>Boost\graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Algorithm\algorithm.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Algorithm\LintCode\serialize.cpp">
+      <Filter>Algorithm\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Algorithm\LintCode\weekly.cpp">
+      <Filter>Algorithm\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_program_options.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_split.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_string.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_tuple.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\Vietnam.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\Fibonacci.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\Interview.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\math.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\OneWayLinkedList.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\Point.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\c\sort.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\base.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\iterator.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\operator.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\petal.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Ptr.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\ReadRegistry.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Thread.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\trace.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\VirtualFunction.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\C++11\Widget.cpp">
+      <Filter>C++\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\List_Iterator.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\TemplateBaseClass.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DesignPattern\DemeterRule.cpp">
+      <Filter>DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DesignPattern\SinglePattern.cpp">
+      <Filter>DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DesignPattern\TemplateMethod.cpp">
+      <Filter>DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DesignPattern\Virtual.cpp">
+      <Filter>DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ESRI\ArcObject.cpp">
+      <Filter>ESRI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ESRI\GDAL.cpp">
+      <Filter>ESRI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphical\IVSFlexGrid.cpp">
+      <Filter>Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\GetConfig.cpp">
+      <Filter>Pm\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\getDirectoryNames.cpp">
+      <Filter>Pm\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\SmartPoint.cpp">
+      <Filter>Pm\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pm\PmFunction.cpp">
+      <Filter>Pm</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String\c.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String\CStringExample.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String\CStringMember.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String\string.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\BcJs2018.cpp">
+      <Filter>Pm\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\shapeFile.cpp">
+      <Filter>ESRI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\KeyValue.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\List.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\LFUCache.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_variant.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_property_tree.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\Regex\regex_match.cpp">
+      <Filter>Boost\Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\Regex\regex_replace.cpp">
+      <Filter>Boost\Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\Regex\std_regex.cpp">
+      <Filter>Boost\Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_random.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\filesystem\boost_filesystem.cpp">
+      <Filter>Boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\filesystem\filesystem_util.cpp">
+      <Filter>Boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\std_advance.cpp">
+      <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\filesystem\std_filesystem.cpp">
+      <Filter>Boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\boost_date_time.cpp">
+      <Filter>Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\sizeof.cpp">
+      <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\C++11\Cpp11.cpp">
+      <Filter>C++\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\C++11\std_bind.cpp">
+      <Filter>C++\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\Inherit.cpp">
+      <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\operator.cpp">
+      <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String\NoCaseWString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\delete.cpp">
+      <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Mechanism\vtable.cpp">
+      <Filter>C++\Mechanism</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pm\MemoryUtil.cpp">
+      <Filter>Pm</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pm\TestSQLite.cpp">
+      <Filter>Pm</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pm\IntersectJudge.cpp">
+      <Filter>Pm</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\C++11\std_move.cpp">
+      <Filter>C++\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C\suspicious.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\graph\shortest_path.cpp">
+      <Filter>Boost\graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
