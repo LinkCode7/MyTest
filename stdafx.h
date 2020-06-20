@@ -74,3 +74,5 @@ public:
 #define TestOpr TestOperator::instance()
 
 
+// GDALø‚÷ª±‡“Î¡ÀVS2015∞Ê±æ
+#define _VERSION_VS2015_ 1900

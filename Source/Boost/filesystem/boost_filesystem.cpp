@@ -133,9 +133,9 @@ void property(const filesystem::path& pathDir, const filesystem::path& pathFile)
 
 	// 磁盘空间信息
 	space_info si = space(pathDir);
-	cout << si.capacity / giga::num << endl; // 使用ratio库的giga单位
-	cout << si.available / giga::num << endl;
-	cout << si.free / giga::num << endl;
+	cout << si.capacity / boost::giga::num << endl; // 使用ratio库的giga单位
+	cout << si.available / boost::giga::num << endl;
+	cout << si.free / boost::giga::num << endl;
 }
 
 void file_operator()

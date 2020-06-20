@@ -1,4 +1,7 @@
 ﻿#include "stdafx.h"
+
+#if(_MSC_VER == _VERSION_VS2015_)
+
 #include "ogrsf_frmts.h"// Link gdal_i.lib(附加依赖项)
 #include "GDAL.h"
 #include "atlconv.h"
@@ -277,3 +280,4 @@ std::string ReadData::get05ShapefilePrjFileName()
 	return 	shape05PrjFolder;
 }
 
+#endif

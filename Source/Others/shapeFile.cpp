@@ -1,5 +1,8 @@
 ﻿#include "stdafx.h"
+
+#if(_MSC_VER == _VERSION_VS2015_)
 #include "ogrsf_frmts.h"
+#endif
 
 
 

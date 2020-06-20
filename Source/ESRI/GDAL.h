@@ -2,6 +2,9 @@
 
 
 
+
+#if(_MSC_VER == _VERSION_VS2015_)
+
 class ReadData
 {
 public:
@@ -103,5 +106,6 @@ public:
 
 
 	std::string get05ShapefilePrjFileName();
-	
 };
+
+#endif
