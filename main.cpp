@@ -13,6 +13,8 @@ using namespace std;
 void keke2();
 void keke3();
 
+
+
 // 调用每个分测试程序的分入口
 int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 {
@@ -44,11 +46,13 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	system("cls");
 	testIterator();
 	testSmartPoint(); // Ptr
+	TestSmartPoint20200811();
 	testBase();
 	testOperator1();
 	testOperator2();
 	readRegister();
 	TestCppInherit();
+	TestCppClass();
 
 	testCpp11();
 

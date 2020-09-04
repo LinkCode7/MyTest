@@ -2,6 +2,8 @@
 #include "base.h"
 #include <functional>
 
+
+
 using namespace std;
 
 char* getCharacter()

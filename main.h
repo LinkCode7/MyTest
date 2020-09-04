@@ -2,6 +2,7 @@
 
 // C++: Ptr
 void testSmartPoint();
+void TestSmartPoint20200811();
 
 void testBase();
 
@@ -13,6 +14,7 @@ void readRegister();
 // C++
 void testDelete();
 void TestCppInherit();
+void TestCppClass();
 
 
 

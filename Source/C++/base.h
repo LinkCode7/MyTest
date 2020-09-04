@@ -103,4 +103,24 @@ public:
 
 
 
+template<typename Subtype>
+class Geometry
+{
+	int m_i;
+public:
 
+	Geometry() :m_i(0) {};
+
+	Subtype Cast()
+	{
+		return static_cast<Subtype*>(this);
+	}
+};
+
+class Line :public Geometry<Line>
+{
+	int m_ii;
+public:
+	
+	Line() :m_ii(0) {};
+};

@@ -216,6 +216,12 @@
     <ClInclude Include="Source\Boost\graph\shortest_path.h">
       <Filter>Boost\graph</Filter>
     </ClInclude>
+    <ClInclude Include="Source\C++\C++11\SmartPoint.h">
+      <Filter>C++\C++11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\Base\construct.h">
+      <Filter>C++\Base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -439,6 +445,12 @@
     </ClCompile>
     <ClCompile Include="Source\C++\operator2.cpp">
       <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\C++11\SmartPoint.cpp">
+      <Filter>C++\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\Base\construct.cpp">
+      <Filter>C++\Base</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

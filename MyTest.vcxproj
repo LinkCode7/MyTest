@@ -169,9 +169,11 @@
     <ClInclude Include="Source\Boost\Regex\std_regex.h" />
     <ClInclude Include="Source\Boost\Vietnam.h" />
     <ClInclude Include="Source\C++\base.h" />
+    <ClInclude Include="Source\C++\Base\construct.h" />
     <ClInclude Include="Source\C++\Base\Inherit.h" />
     <ClInclude Include="Source\C++\Base\sizeof.h" />
     <ClInclude Include="Source\C++\C++11\Cpp11.h" />
+    <ClInclude Include="Source\C++\C++11\SmartPoint.h" />
     <ClInclude Include="Source\C++\C++11\std_bind.h" />
     <ClInclude Include="Source\C++\C++11\std_move.h" />
     <ClInclude Include="Source\C++\Mechanism\vtable.h" />
@@ -223,11 +225,13 @@
     <ClCompile Include="Source\Boost\Regex\std_regex.cpp" />
     <ClCompile Include="Source\Boost\Vietnam.cpp" />
     <ClCompile Include="Source\C++\base.cpp" />
+    <ClCompile Include="Source\C++\Base\construct.cpp" />
     <ClCompile Include="Source\C++\Base\delete.cpp" />
     <ClCompile Include="Source\C++\Base\Inherit.cpp" />
     <ClCompile Include="Source\C++\Base\operator1.cpp" />
     <ClCompile Include="Source\C++\Base\sizeof.cpp" />
     <ClCompile Include="Source\C++\C++11\Cpp11.cpp" />
+    <ClCompile Include="Source\C++\C++11\SmartPoint.cpp" />
     <ClCompile Include="Source\C++\C++11\std_bind.cpp" />
     <ClCompile Include="Source\C++\C++11\std_move.cpp" />
     <ClCompile Include="Source\C++\C++11\Widget.cpp" />
