@@ -93,6 +93,7 @@ void LFUCacheEntry();
 
 void TestPairCompare();
 void TestList();
+void TestVector();
 
 
 // LintCode

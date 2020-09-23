@@ -41,6 +41,8 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	TestList();
 	system("cls");
 	LFUCacheEntry();
+	system("cls");
+	TestVector();
 
 	// C++
 	system("cls");
@@ -82,6 +84,7 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	testDemeter();
 	system("cls");
 	testSinglePattern();
+	system("cls");
 	testTemplateMethod();
 	testVirtual();
 

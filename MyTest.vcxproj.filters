@@ -222,6 +222,9 @@
     <ClInclude Include="Source\C++\Base\construct.h">
       <Filter>C++\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Source\C++\STL\TestVector.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -451,6 +454,9 @@
     </ClCompile>
     <ClCompile Include="Source\C++\Base\construct.cpp">
       <Filter>C++\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\TestVector.cpp">
+      <Filter>C++\STL</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

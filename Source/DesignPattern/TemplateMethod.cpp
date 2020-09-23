@@ -75,7 +75,8 @@ void testTemplateMethod()
 	TestQuestion* pStudent2 = new Student("student2");
 
 	pStudent1->TestAnswer();
-	//pStudent2->TestAnswer();
+	cout << endl << "---------------------------------------" << endl << endl;
+	pStudent2->TestAnswer();
 
 	delete pStudent1;
 	delete pStudent2;

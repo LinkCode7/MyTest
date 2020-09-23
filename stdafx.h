@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <tchar.h>
 
+#include <cstdio>
+#include <cstdlib>
 
 #include <iostream>
 #include <string>

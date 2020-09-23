@@ -184,6 +184,7 @@
     <ClInclude Include="Source\C++\STL\List.h" />
     <ClInclude Include="Source\C++\STL\List_Iterator.h" />
     <ClInclude Include="Source\C++\STL\template_add.h" />
+    <ClInclude Include="Source\C++\STL\TestVector.h" />
     <ClInclude Include="Source\C++\VirtualFunction.h" />
     <ClInclude Include="Source\c\Fibonacci.h" />
     <ClInclude Include="Source\C\suspicious.h" />
@@ -247,6 +248,7 @@
     <ClCompile Include="Source\C++\STL\List.cpp" />
     <ClCompile Include="Source\C++\STL\List_Iterator.cpp" />
     <ClCompile Include="Source\C++\STL\TemplateBaseClass.cpp" />
+    <ClCompile Include="Source\C++\STL\TestVector.cpp" />
     <ClCompile Include="Source\C++\Thread.cpp" />
     <ClCompile Include="Source\C++\trace.cpp" />
     <ClCompile Include="Source\C++\VirtualFunction.cpp" />
