@@ -67,6 +67,9 @@
     <Filter Include="Boost\graph">
       <UniqueIdentifier>{25434d07-f38a-42e3-b13c-ae9aabdc8e76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Boost\SpatialIndex">
+      <UniqueIdentifier>{6351f91c-23ec-4641-92e4-87407efccb2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -224,6 +227,9 @@
     </ClInclude>
     <ClInclude Include="Source\C++\STL\TestVector.h">
       <Filter>C++\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boost\SpatialIndex\boost_spatial_index.h">
+      <Filter>Boost\SpatialIndex</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -457,6 +463,9 @@
     </ClCompile>
     <ClCompile Include="Source\C++\STL\TestVector.cpp">
       <Filter>C++\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boost\SpatialIndex\boost_spatial_index.cpp">
+      <Filter>Boost\SpatialIndex</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

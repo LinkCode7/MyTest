@@ -167,6 +167,7 @@
     <ClInclude Include="Source\Boost\Regex\regex_match.h" />
     <ClInclude Include="Source\Boost\Regex\regex_replace.h" />
     <ClInclude Include="Source\Boost\Regex\std_regex.h" />
+    <ClInclude Include="Source\Boost\SpatialIndex\boost_spatial_index.h" />
     <ClInclude Include="Source\Boost\Vietnam.h" />
     <ClInclude Include="Source\C++\base.h" />
     <ClInclude Include="Source\C++\Base\construct.h" />
@@ -224,6 +225,7 @@
     <ClCompile Include="Source\Boost\Regex\regex_match.cpp" />
     <ClCompile Include="Source\Boost\Regex\regex_replace.cpp" />
     <ClCompile Include="Source\Boost\Regex\std_regex.cpp" />
+    <ClCompile Include="Source\Boost\SpatialIndex\boost_spatial_index.cpp" />
     <ClCompile Include="Source\Boost\Vietnam.cpp" />
     <ClCompile Include="Source\C++\base.cpp" />
     <ClCompile Include="Source\C++\Base\construct.cpp" />

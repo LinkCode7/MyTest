@@ -5,11 +5,11 @@
 
 #include "targetver.h"
 
-#include <stdio.h>
-#include <tchar.h>
-
+//#include <stdio.h>
 #include <cstdio>
 #include <cstdlib>
+
+#include <tchar.h>
 
 #include <iostream>
 #include <string>

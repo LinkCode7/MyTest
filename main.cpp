@@ -15,9 +15,37 @@ void keke3();
 
 
 
+struct Point
+{
+	Point() :i_(1) {}
+	Point(int i) :i_(i) {}
+	int i_;
+};
+
+struct ComparePoint
+{
+	bool operator()(Point* src, Point* dest)
+	{
+		return src->i_ < dest->i_;
+	}
+};
+
 // 调用每个分测试程序的分入口
 int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 {
+	Point* p1 = new Point(2);
+	Point* p2 = new Point(1);
+	Point* p3 = new Point(3);
+
+	std::set<Point*, ComparePoint> setPt;
+	setPt.insert(p1);
+	setPt.insert(p2);
+	setPt.insert(p3);
+
+	delete p1;
+	delete p2;
+	delete p3;
+
 	//keke2();
 
 	_Main();
@@ -111,6 +139,8 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	boost_property_tree();
 	system("cls");
 	boost_graph();
+	system("cls");
+	TestSpatialIndex();
 	
 	
 	system("cls");

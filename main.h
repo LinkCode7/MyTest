@@ -83,6 +83,9 @@ void boost_random();
 void boost_date_time();
 int boost_program_options(int argc, char*argv[]);
 
+void TestSpatialIndex();
+
+
 // STL
 void List_Iterator();
 void testAdvance();
