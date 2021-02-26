@@ -172,6 +172,7 @@
     <ClInclude Include="Source\C++\base.h" />
     <ClInclude Include="Source\C++\Base\construct.h" />
     <ClInclude Include="Source\C++\Base\Inherit.h" />
+    <ClInclude Include="Source\C++\Base\operator1.h" />
     <ClInclude Include="Source\C++\Base\sizeof.h" />
     <ClInclude Include="Source\C++\C++11\Cpp11.h" />
     <ClInclude Include="Source\C++\C++11\SmartPoint.h" />
@@ -240,7 +241,6 @@
     <ClCompile Include="Source\C++\C++11\Widget.cpp" />
     <ClCompile Include="Source\C++\iterator.cpp" />
     <ClCompile Include="Source\C++\Mechanism\vtable.cpp" />
-    <ClCompile Include="Source\C++\operator2.cpp" />
     <ClCompile Include="Source\C++\petal.cpp" />
     <ClCompile Include="Source\C++\Ptr.cpp" />
     <ClCompile Include="Source\C++\ReadRegistry.cpp" />

@@ -231,6 +231,9 @@
     <ClInclude Include="Source\Boost\SpatialIndex\boost_spatial_index.h">
       <Filter>Boost\SpatialIndex</Filter>
     </ClInclude>
+    <ClInclude Include="Source\C++\Base\operator1.h">
+      <Filter>C++\Base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -451,9 +454,6 @@
     </ClCompile>
     <ClCompile Include="Source\C++\Base\operator1.cpp">
       <Filter>C++\Base</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\C++\operator2.cpp">
-      <Filter>C++</Filter>
     </ClCompile>
     <ClCompile Include="Source\C++\C++11\SmartPoint.cpp">
       <Filter>C++\C++11</Filter>
