@@ -13,13 +13,15 @@ void TestSharedPtr();
 void TestMySharedPtr();
 void TestSharedPtrLeak();
 void TestSharedPtrSample();
-
+void TestSmartPointInit();
 
 
 
 
 void TestSmartPoint20200811()
 {
+	TestSmartPointInit();
+
 	TestSharedPtr();
 
 	system("cls");
@@ -84,6 +86,7 @@ public:
 
 void TestSharedPtrLeak()
 {
+	return;
 	bool isTestRight = false;
 
 	if(isTestRight)
@@ -158,4 +161,13 @@ void TestSharedPtrSample()
 	t1.join(); t2.join(); t3.join();
 
 	std::cout << "All threads completed, the last one deleted Derived\n";
+}
+
+void TestSmartPointInit()
+{
+	std::shared_ptr<MyObject> pointer;
+	MyObject* p = pointer.get();
+	cout << "pointer.get() = " << p << endl;
+
+	pointer = std::make_shared<MyObject>();
 }

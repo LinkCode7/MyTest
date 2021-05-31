@@ -186,8 +186,10 @@
     <ClInclude Include="Source\C++\STL\List.h" />
     <ClInclude Include="Source\C++\STL\List_Iterator.h" />
     <ClInclude Include="Source\C++\STL\template_add.h" />
+    <ClInclude Include="Source\C++\STL\TestMap.h" />
     <ClInclude Include="Source\C++\STL\TestVector.h" />
     <ClInclude Include="Source\C++\VirtualFunction.h" />
+    <ClInclude Include="Source\C\c_function.h" />
     <ClInclude Include="Source\c\Fibonacci.h" />
     <ClInclude Include="Source\C\suspicious.h" />
     <ClInclude Include="Source\DesignPattern\SinglePattern.h" />
@@ -250,10 +252,12 @@
     <ClCompile Include="Source\C++\STL\List.cpp" />
     <ClCompile Include="Source\C++\STL\List_Iterator.cpp" />
     <ClCompile Include="Source\C++\STL\TemplateBaseClass.cpp" />
+    <ClCompile Include="Source\C++\STL\TestMap.cpp" />
     <ClCompile Include="Source\C++\STL\TestVector.cpp" />
     <ClCompile Include="Source\C++\Thread.cpp" />
     <ClCompile Include="Source\C++\trace.cpp" />
     <ClCompile Include="Source\C++\VirtualFunction.cpp" />
+    <ClCompile Include="Source\C\c_function.cpp" />
     <ClCompile Include="Source\c\Fibonacci.cpp" />
     <ClCompile Include="Source\c\Interview.cpp" />
     <ClCompile Include="Source\c\math.cpp" />

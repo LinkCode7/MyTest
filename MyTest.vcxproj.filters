@@ -234,6 +234,12 @@
     <ClInclude Include="Source\C++\Base\operator1.h">
       <Filter>C++\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Source\C\c_function.h">
+      <Filter>C</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\C++\STL\TestMap.h">
+      <Filter>C++\STL</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -466,6 +472,12 @@
     </ClCompile>
     <ClCompile Include="Source\Boost\SpatialIndex\boost_spatial_index.cpp">
       <Filter>Boost\SpatialIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C\c_function.cpp">
+      <Filter>C</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\C++\STL\TestMap.cpp">
+      <Filter>C++\STL</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

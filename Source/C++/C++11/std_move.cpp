@@ -1,14 +1,74 @@
 #include "stdafx.h"
+#include "std_move.h"
 #include "std_bind.h"
 
+using namespace std;
 
-
+void TestContainer();
+void TestContainer2();
 
 
 
 void stl_move()
 {
+	TestContainer();
+	TestContainer2();
+}
 
+
+
+void TestContainer()
+{
+//#define SimpleObject_TYPE SimpleObject
+#define SimpleObject_TYPE SimpleObjectPtr
+
+	std::vector<SimpleObject_TYPE> vec;
+	vec.reserve(1000);
+	//vec.push_back(SimpleObject());
+	//vec.push_back(SimpleObject());
+	vec.push_back(std::make_shared<SimpleObject>());
+	vec.push_back(std::make_shared<SimpleObject>());
+
+	map<int, std::vector<SimpleObject_TYPE>> mapp;
+	mapp.insert(make_pair(1, vec));
+	mapp[1] = vec;
+
+	int value = -1;
+	for (const auto& item : mapp)
+	{
+		std::vector<SimpleObject_TYPE> con = item.second; // øΩ±¥ππ‘Ï
+		const auto& container = item.second;
+		//value = item.second[0].m_i;
+	}
+}
+
+void TestContainer2()
+{
+	std::vector<SimpleObjectPtr> vec;
+	vec.reserve(1000);
+	vec.push_back(std::make_shared<SimpleObject>());
+	vec.push_back(std::make_shared<SimpleObject>());
+
+	map<int, std::vector<SimpleObjectPtr>> mapp;
+	mapp.insert(make_pair(1, vec));
+	mapp[1] = vec;
+
+
+	auto sp = std::make_shared<SimpleObject>(9);
+	std::vector<SimpleObjectPtr> container;
+
+	auto iter = mapp.find(1);
+	if (iter == mapp.end())
+	{
+		container.push_back(sp);
+		mapp[2] = container;
+	}
+	else
+	{
+		//container = iter->second;
+		//container.push_back(sp);
+		iter->second.push_back(sp);
+	}
 }
 
 

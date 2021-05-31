@@ -19,6 +19,7 @@
 #include <list>
 #include <algorithm>
 #include <sstream>
+#include <memory>
 
 #include <array>
 #include <functional>

@@ -1,26 +1,41 @@
 #include "stdafx.h"
 #include "TestVector.h"
 
-
-
-
 using namespace std;
 
 
-
-
-
+void TestVectorBase();
 void PrintVectorLength(const std::vector<Point>& vec);
 void TestVectorPush();
 void TestMemoryGrowth();
 void TestMoveSemantic();
+void TestCapacity();
+
+
+#include <assert.h>
+template<class T>
+void RemoveAt(std::vector<T>& vec, int index)
+{
+	assert(index >= 0 && index < vec.size());
+
+	vec.erase((vec.rbegin() + (vec.size() - index)).base());
+}
 
 void TestVector()
 {
+	TestVectorBase();
 	//TestVectorPush();
 	//TestMemoryGrowth();
 
 	TestMoveSemantic();
+	TestCapacity();
+
+	
+	vector<int> vec = {1,2,3,4,5,6};
+
+	//RemoveAt(vec, 2);
+	for(int i = 0; i < 6; ++i)
+		RemoveAt(vec, vec.size()-1);
 }
 
 
@@ -113,4 +128,44 @@ void TestMoveSemantic()
 	Point pt1 = std::move(pt);
 
 	PrintPoint(std::move(pt1));
+}
+
+void TestCapacity()
+{
+	using namespace std;
+	vector<ConstructCount> vec;
+	cout << "vector::capacity() = " << vec.capacity() << endl;
+
+	// reserve是直接扩充到已经确定的大小，可以减少多次开辟和释放空间、多次拷贝数据的问题，
+	// reserve只是保证vector中的空间大小（capacity）最少达到参数所指定的大小n
+	vec.reserve(3);
+	cout << "vector::capacity() = " << vec.capacity() << endl;
+
+	// resize改变逻辑长度，物理长度不够时补足内存，物理长度超过时不扣减物理长度
+	vec.resize(4);
+	cout << "vector::capacity() = " << vec.capacity() << endl;
+
+	ConstructCount object(5);
+	vec.resize(10, object);
+	cout << "vector::capacity() = " << vec.capacity() << endl;
+	auto oo = vec[4];
+
+	vec.resize(0); // setLogicLength(0);
+	cout << "vector::capacity() = " << vec.capacity() << endl;
+}
+
+void TestVectorBase()
+{
+	system("cls");
+	vector<ConstructCount> vec;
+	vec.reserve(100);
+	vec.push_back(ConstructCount(1));
+	vec.push_back(ConstructCount(2));
+
+	// operator =
+	cout << endl;
+	vector<ConstructCount> vec2;
+	vec2.reserve(100);
+	vec2 = vec;
+	cout << endl << "&vec[0]:" << &vec[0] << ", &vec2[0]:" << &vec2[0] << endl;
 }

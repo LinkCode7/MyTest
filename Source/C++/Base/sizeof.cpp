@@ -70,8 +70,8 @@ void Char_CharArray()
 
 	cout << sizeof(ch4) << endl; // 10
 
-	cout << sizeof(pChar) << endl;
-	cout << sizeof(pVoid) << endl;
+	cout << sizeof(pChar) << endl; // 4
+	cout << sizeof(pVoid) << endl;  // 4
 
 	free(pChar);
 	free(pVoid);
@@ -83,8 +83,8 @@ void Char_CharArray()
 	int pA2[3] = {1, 2};
 
 	cout << endl << endl;
-	cout << sizeof(pA) << endl;
-	cout << sizeof(pA2) << endl; // 4*3=12 
+	cout << sizeof(pA) << endl; // 4
+	cout << sizeof(pA2) << endl; // 4*3=12
 }
 
 void TestSizeOf::VPtrTest::TestNotAboutSizeOf()

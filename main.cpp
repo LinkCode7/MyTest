@@ -30,7 +30,6 @@ struct ComparePoint
 	}
 };
 
-
 // 调用每个分测试程序的分入口
 int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 {
@@ -72,6 +71,8 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	LFUCacheEntry();
 	system("cls");
 	TestVector();
+	system("cls");
+	TestMap();
 
 	// C++
 	system("cls");
@@ -97,6 +98,7 @@ int main(int argc, char*argv[]) // 命令行参数用于测试program_options
 	// C++11
 	testWidget();
 	stl_bind();
+	system("cls");
 	stl_move();
 
 	// C++ Mechanism
